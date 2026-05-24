@@ -1,14 +1,27 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css">
+        <title>The daily dribbler</title>
     </head>
     <body>
-        <h1>THE DAILY DRIBBLE</h1>
-        
-        <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
-        <img src="stadium.jpg" />
-        
+    <div class="outerWrapper">
+        <div class="innerWrapper">
+            <h1>THE DAILY DRIBBLE</h1>
+
+            <!-- Image credit: Thomas Serer https://unsplash.com/@jesusance -->
+            <img src="stadium.jpg" id="stadium" alt="stadium"/>
+            <p id="descriptionText">Your daily dose of soccer stories from on and off the pitch. Interviews, analzses, breaking news and more!</p>
+
+            <div class="subscriptionWrapper">
+                <label>
+                    <input type="text" placeholder="ENTER YOUR EMAIL" class="emailInput"/>
+                </label>
+                <button class="submit">JOIN NOW</button>
+            </div>
+            <p>Read our <a href="about:blank" target="_blank">terms of service</a></p>
+        </div>
+    </div>
     </body>
 </html>
 
